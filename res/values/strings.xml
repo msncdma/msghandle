@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">chat后台系统</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_message_handle">MainActivity</string>
+    <string name="sendBut">连接服务并开启接收消息线程</string>
+    <string name="sendBut2">发送消息</string>
+    <string name="sendBut3">获取全部机构信息</string>
+    <string name="sendBut4">请选择图片发送</string>
+</resources>

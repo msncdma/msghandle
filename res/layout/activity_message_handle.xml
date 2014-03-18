@@ -1,0 +1,54 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <Button
+        android:id="@+id/sendMsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="20dp"
+        android:minHeight="30dp"
+        android:minWidth="50dp"
+        android:text="@string/sendBut"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/sendMsg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sendMsg"
+        android:layout_below="@+id/sendMsg"
+        android:layout_marginTop="14dp"
+        android:minHeight="30dp"
+        android:minWidth="50dp"
+        android:text="@string/sendBut3"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/sendMsg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/sendMsg3"
+        android:layout_toRightOf="@+id/sendMsg"
+        android:minHeight="30dp"
+        android:minWidth="50dp"
+        android:text="@string/sendBut2"
+        android:textSize="10sp" />
+
+    <Button
+        android:id="@+id/sendMsg4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/sendMsg3"
+        android:layout_below="@+id/sendMsg3"
+        android:minHeight="30dp"
+        android:minWidth="50dp"
+        android:layout_marginTop="74dp"
+        android:text="@string/sendBut4"
+        android:textSize="10sp" />
+    
+    
+
+</RelativeLayout>
